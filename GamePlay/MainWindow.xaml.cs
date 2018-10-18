@@ -85,5 +85,10 @@ namespace GamePlay
         {
             UpdateHealth(-10);
         }
+
+        private void WineButton_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateHealth(50);
+        }
     }
 }
