@@ -35,16 +35,11 @@ namespace GamePlay
             else if (_health >= 100)
             {
                 _health = 100;
-
-                CarrotButton.IsEnabled = false;
-                BreadButton.IsEnabled = false;
-                PortionButton.IsEnabled = false;
-                }
+                FoodPopup.IsEnabled = false;
+            }
             else
             {
-                CarrotButton.IsEnabled = true;
-                BreadButton.IsEnabled = true;
-                PortionButton.IsEnabled = true;
+                FoodPopup.IsEnabled = true;
             }
 
             var fileName = _health < 50 ? "Media/elf.gif" : "Media/jump.gif";

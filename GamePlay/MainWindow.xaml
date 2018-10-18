@@ -25,6 +25,7 @@
             VerticalAlignment="Center"
             Orientation="Horizontal">
             <materialDesign:PopupBox
+                Name="FoodPopup"
                 Margin="10"
                 PlacementMode="BottomAndAlignCentres"
                 Style="{StaticResource MaterialDesignMultiFloatingActionPopupBox}"
