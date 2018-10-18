@@ -289,15 +289,15 @@ this.WhenAttacked("3", "0", ((string[])(null)));
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("When attacked: 4")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("When attacked: 5")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Warrior elf character design")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "4")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:count", "4")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "5")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:count", "5")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:health", "0")]
-        public virtual void WhenAttacked_4()
+        public virtual void WhenAttacked_5()
         {
 #line 31
-this.WhenAttacked("4", "0", ((string[])(null)));
+this.WhenAttacked("5", "0", ((string[])(null)));
 #line hidden
         }
     }

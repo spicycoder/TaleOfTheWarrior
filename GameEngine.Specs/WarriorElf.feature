@@ -37,4 +37,4 @@ Scenario Outline: When attacked
 	| 1     | 20     |
 	| 2     | 10     |
 	| 3     | 0      |
-	| 4     | 0      |
+	| 5     | 0      |
